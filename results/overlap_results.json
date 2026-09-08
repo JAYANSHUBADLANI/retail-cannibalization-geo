@@ -1,0 +1,922 @@
+{
+  "n_stores": 114,
+  "n_tracts": 860,
+  "close_pair_threshold_meters": 440.0724658837492,
+  "n_close_pairs": 110,
+  "baseline_beta": 2.0,
+  "baseline_overlaps": [
+    {
+      "store_i": 3,
+      "store_j": 4,
+      "overlap_population": 2759.0472249986024,
+      "store_i_captured": 26781.888778437733,
+      "store_j_captured": 24375.399459894812,
+      "overlap_pct_of_smaller_store": 0.11318982605959346
+    },
+    {
+      "store_i": 5,
+      "store_j": 6,
+      "overlap_population": 643.7870459672956,
+      "store_i_captured": 10139.09244733835,
+      "store_j_captured": 10149.071577765511,
+      "overlap_pct_of_smaller_store": 0.06349552973415273
+    },
+    {
+      "store_i": 5,
+      "store_j": 15,
+      "overlap_population": 277.05743088323555,
+      "store_i_captured": 10139.09244733835,
+      "store_j_captured": 10924.865093610611,
+      "overlap_pct_of_smaller_store": 0.027325663743796608
+    },
+    {
+      "store_i": 5,
+      "store_j": 44,
+      "overlap_population": 277.05743088323555,
+      "store_i_captured": 10139.09244733835,
+      "store_j_captured": 10535.038143789023,
+      "overlap_pct_of_smaller_store": 0.027325663743796608
+    },
+    {
+      "store_i": 5,
+      "store_j": 59,
+      "overlap_population": 0.0,
+      "store_i_captured": 10139.09244733835,
+      "store_j_captured": 10622.786460004241,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 5,
+      "store_j": 60,
+      "overlap_population": 643.7870459672956,
+      "store_i_captured": 10139.09244733835,
+      "store_j_captured": 10576.972124165182,
+      "overlap_pct_of_smaller_store": 0.06349552973415273
+    },
+    {
+      "store_i": 5,
+      "store_j": 61,
+      "overlap_population": 643.7870459672956,
+      "store_i_captured": 10139.09244733835,
+      "store_j_captured": 10672.766807151831,
+      "overlap_pct_of_smaller_store": 0.06349552973415273
+    },
+    {
+      "store_i": 6,
+      "store_j": 59,
+      "overlap_population": 666.8627183805845,
+      "store_i_captured": 10149.071577765511,
+      "store_j_captured": 10622.786460004241,
+      "overlap_pct_of_smaller_store": 0.06570677064112357
+    },
+    {
+      "store_i": 6,
+      "store_j": 60,
+      "overlap_population": 708.6622658477036,
+      "store_i_captured": 10149.071577765511,
+      "store_j_captured": 10576.972124165182,
+      "overlap_pct_of_smaller_store": 0.0698253293828604
+    },
+    {
+      "store_i": 6,
+      "store_j": 61,
+      "overlap_population": 693.000116072246,
+      "store_i_captured": 10149.071577765511,
+      "store_j_captured": 10672.766807151831,
+      "overlap_pct_of_smaller_store": 0.06828211928177391
+    },
+    {
+      "store_i": 10,
+      "store_j": 30,
+      "overlap_population": 1006.2727593655661,
+      "store_i_captured": 22457.23408697744,
+      "store_j_captured": 19984.062204840855,
+      "overlap_pct_of_smaller_store": 0.05035376436737726
+    },
+    {
+      "store_i": 10,
+      "store_j": 32,
+      "overlap_population": 846.9693416025206,
+      "store_i_captured": 22457.23408697744,
+      "store_j_captured": 20544.13493649444,
+      "overlap_pct_of_smaller_store": 0.041226819441200754
+    },
+    {
+      "store_i": 10,
+      "store_j": 52,
+      "overlap_population": 1550.7680828572795,
+      "store_i_captured": 22457.23408697744,
+      "store_j_captured": 20807.579750206103,
+      "overlap_pct_of_smaller_store": 0.07452899863771609
+    },
+    {
+      "store_i": 10,
+      "store_j": 92,
+      "overlap_population": 886.0693100380106,
+      "store_i_captured": 22457.23408697744,
+      "store_j_captured": 19447.829915770097,
+      "overlap_pct_of_smaller_store": 0.04556134611808301
+    },
+    {
+      "store_i": 12,
+      "store_j": 24,
+      "overlap_population": 629.2466096884255,
+      "store_i_captured": 20103.52727394466,
+      "store_j_captured": 21128.522422526585,
+      "overlap_pct_of_smaller_store": 0.031300308702740226
+    },
+    {
+      "store_i": 12,
+      "store_j": 32,
+      "overlap_population": 260.22420804562154,
+      "store_i_captured": 20103.52727394466,
+      "store_j_captured": 20544.13493649444,
+      "overlap_pct_of_smaller_store": 0.01294420648175941
+    },
+    {
+      "store_i": 15,
+      "store_j": 18,
+      "overlap_population": 274.361489599014,
+      "store_i_captured": 10924.865093610611,
+      "store_j_captured": 11467.744474741303,
+      "overlap_pct_of_smaller_store": 0.025113489937690293
+    },
+    {
+      "store_i": 15,
+      "store_j": 44,
+      "overlap_population": 277.35846603605876,
+      "store_i_captured": 10924.865093610611,
+      "store_j_captured": 10535.038143789023,
+      "overlap_pct_of_smaller_store": 0.026327238900371388
+    },
+    {
+      "store_i": 15,
+      "store_j": 59,
+      "overlap_population": 250.43521674531195,
+      "store_i_captured": 10924.865093610611,
+      "store_j_captured": 10622.786460004241,
+      "overlap_pct_of_smaller_store": 0.02357528485470581
+    },
+    {
+      "store_i": 15,
+      "store_j": 60,
+      "overlap_population": 827.6688332134851,
+      "store_i_captured": 10924.865093610611,
+      "store_j_captured": 10576.972124165182,
+      "overlap_pct_of_smaller_store": 0.07825196317975654
+    },
+    {
+      "store_i": 15,
+      "store_j": 61,
+      "overlap_population": 837.913180624331,
+      "store_i_captured": 10924.865093610611,
+      "store_j_captured": 10672.766807151831,
+      "overlap_pct_of_smaller_store": 0.07850946205091304
+    },
+    {
+      "store_i": 15,
+      "store_j": 62,
+      "overlap_population": 405.6817177817282,
+      "store_i_captured": 10924.865093610611,
+      "store_j_captured": 11611.892095363917,
+      "overlap_pct_of_smaller_store": 0.037133796555436686
+    },
+    {
+      "store_i": 16,
+      "store_j": 26,
+      "overlap_population": 124.47096084615765,
+      "store_i_captured": 21660.038326342663,
+      "store_j_captured": 20878.38786876801,
+      "overlap_pct_of_smaller_store": 0.0059617132140912955
+    },
+    {
+      "store_i": 16,
+      "store_j": 33,
+      "overlap_population": 0.0,
+      "store_i_captured": 21660.038326342663,
+      "store_j_captured": 21509.783055042375,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 16,
+      "store_j": 73,
+      "overlap_population": 433.82346477859863,
+      "store_i_captured": 21660.038326342663,
+      "store_j_captured": 22774.363594637754,
+      "overlap_pct_of_smaller_store": 0.02002874871421571
+    },
+    {
+      "store_i": 16,
+      "store_j": 86,
+      "overlap_population": 124.47096084615765,
+      "store_i_captured": 21660.038326342663,
+      "store_j_captured": 26476.13480039179,
+      "overlap_pct_of_smaller_store": 0.0057465715882311095
+    },
+    {
+      "store_i": 17,
+      "store_j": 18,
+      "overlap_population": 3550.2653296196913,
+      "store_i_captured": 12034.596495616046,
+      "store_j_captured": 11467.744474741303,
+      "overlap_pct_of_smaller_store": 0.30958706286484294
+    },
+    {
+      "store_i": 17,
+      "store_j": 19,
+      "overlap_population": 4782.359338586448,
+      "store_i_captured": 12034.596495616046,
+      "store_j_captured": 11951.703819677576,
+      "overlap_pct_of_smaller_store": 0.4001403825547162
+    },
+    {
+      "store_i": 17,
+      "store_j": 20,
+      "overlap_population": 4474.3523656363395,
+      "store_i_captured": 12034.596495616046,
+      "store_j_captured": 11957.393010132351,
+      "overlap_pct_of_smaller_store": 0.37419129419304875
+    },
+    {
+      "store_i": 17,
+      "store_j": 62,
+      "overlap_population": 3655.3538144914414,
+      "store_i_captured": 12034.596495616046,
+      "store_j_captured": 11611.892095363917,
+      "overlap_pct_of_smaller_store": 0.31479398744592646
+    },
+    {
+      "store_i": 18,
+      "store_j": 19,
+      "overlap_population": 3345.4560202161547,
+      "store_i_captured": 11467.744474741303,
+      "store_j_captured": 11951.703819677576,
+      "overlap_pct_of_smaller_store": 0.2917274645929555
+    },
+    {
+      "store_i": 18,
+      "store_j": 20,
+      "overlap_population": 3676.461461572138,
+      "store_i_captured": 11467.744474741303,
+      "store_j_captured": 11957.393010132351,
+      "overlap_pct_of_smaller_store": 0.32059150512726037
+    },
+    {
+      "store_i": 18,
+      "store_j": 59,
+      "overlap_population": 0.0,
+      "store_i_captured": 11467.744474741303,
+      "store_j_captured": 10622.786460004241,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 18,
+      "store_j": 62,
+      "overlap_population": 187.29801391760972,
+      "store_i_captured": 11467.744474741303,
+      "store_j_captured": 11611.892095363917,
+      "overlap_pct_of_smaller_store": 0.016332593940347185
+    },
+    {
+      "store_i": 19,
+      "store_j": 20,
+      "overlap_population": 4385.886406694335,
+      "store_i_captured": 11951.703819677576,
+      "store_j_captured": 11957.393010132351,
+      "overlap_pct_of_smaller_store": 0.36696746111406353
+    },
+    {
+      "store_i": 19,
+      "store_j": 62,
+      "overlap_population": 3585.2736514455883,
+      "store_i_captured": 11951.703819677576,
+      "store_j_captured": 11611.892095363917,
+      "overlap_pct_of_smaller_store": 0.30875878125641726
+    },
+    {
+      "store_i": 20,
+      "store_j": 62,
+      "overlap_population": 3769.888128337987,
+      "store_i_captured": 11957.393010132351,
+      "store_j_captured": 11611.892095363917,
+      "overlap_pct_of_smaller_store": 0.32465752328538483
+    },
+    {
+      "store_i": 21,
+      "store_j": 46,
+      "overlap_population": 159.8737967384649,
+      "store_i_captured": 19580.523005066258,
+      "store_j_captured": 20025.5155629312,
+      "overlap_pct_of_smaller_store": 0.008164940062995212
+    },
+    {
+      "store_i": 21,
+      "store_j": 82,
+      "overlap_population": 159.8737967384649,
+      "store_i_captured": 19580.523005066258,
+      "store_j_captured": 20290.92390382672,
+      "overlap_pct_of_smaller_store": 0.008164940062995212
+    },
+    {
+      "store_i": 21,
+      "store_j": 88,
+      "overlap_population": 702.5919282997794,
+      "store_i_captured": 19580.523005066258,
+      "store_j_captured": 20858.297876963006,
+      "overlap_pct_of_smaller_store": 0.03588218394973367
+    },
+    {
+      "store_i": 21,
+      "store_j": 91,
+      "overlap_population": 264.4787059336951,
+      "store_i_captured": 19580.523005066258,
+      "store_j_captured": 19901.14946917887,
+      "overlap_pct_of_smaller_store": 0.013507233992946153
+    },
+    {
+      "store_i": 21,
+      "store_j": 93,
+      "overlap_population": 264.4787059336951,
+      "store_i_captured": 19580.523005066258,
+      "store_j_captured": 19636.98142632236,
+      "overlap_pct_of_smaller_store": 0.013507233992946153
+    },
+    {
+      "store_i": 21,
+      "store_j": 97,
+      "overlap_population": 0.0,
+      "store_i_captured": 19580.523005066258,
+      "store_j_captured": 19554.22283964972,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 23,
+      "store_j": 98,
+      "overlap_population": 3440.009673474675,
+      "store_i_captured": 22332.810396089862,
+      "store_j_captured": 22486.529432985826,
+      "overlap_pct_of_smaller_store": 0.15403389060594758
+    },
+    {
+      "store_i": 25,
+      "store_j": 98,
+      "overlap_population": 2951.8814183566474,
+      "store_i_captured": 22663.651038547272,
+      "store_j_captured": 22486.529432985826,
+      "overlap_pct_of_smaller_store": 0.13127332197499933
+    },
+    {
+      "store_i": 26,
+      "store_j": 27,
+      "overlap_population": 59.55385747190822,
+      "store_i_captured": 20878.38786876801,
+      "store_j_captured": 20568.887775026436,
+      "overlap_pct_of_smaller_store": 0.0028953367884196005
+    },
+    {
+      "store_i": 26,
+      "store_j": 33,
+      "overlap_population": 61.25391829609286,
+      "store_i_captured": 20878.38786876801,
+      "store_j_captured": 21509.783055042375,
+      "overlap_pct_of_smaller_store": 0.0029338432967673054
+    },
+    {
+      "store_i": 26,
+      "store_j": 86,
+      "overlap_population": 564.1470135327575,
+      "store_i_captured": 20878.38786876801,
+      "store_j_captured": 26476.13480039179,
+      "overlap_pct_of_smaller_store": 0.027020621375497347
+    },
+    {
+      "store_i": 26,
+      "store_j": 87,
+      "overlap_population": 75.58716816803731,
+      "store_i_captured": 20878.38786876801,
+      "store_j_captured": 19563.279449963957,
+      "overlap_pct_of_smaller_store": 0.003863726854250736
+    },
+    {
+      "store_i": 26,
+      "store_j": 109,
+      "overlap_population": 130.16404124790262,
+      "store_i_captured": 20878.38786876801,
+      "store_j_captured": 20069.15992297145,
+      "overlap_pct_of_smaller_store": 0.006485774279914676
+    },
+    {
+      "store_i": 27,
+      "store_j": 33,
+      "overlap_population": 0.0,
+      "store_i_captured": 20568.887775026436,
+      "store_j_captured": 21509.783055042375,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 27,
+      "store_j": 53,
+      "overlap_population": 308.5472659666276,
+      "store_i_captured": 20568.887775026436,
+      "store_j_captured": 21935.701014085742,
+      "overlap_pct_of_smaller_store": 0.015000678176738754
+    },
+    {
+      "store_i": 27,
+      "store_j": 83,
+      "overlap_population": 308.5472659666276,
+      "store_i_captured": 20568.887775026436,
+      "store_j_captured": 21835.246402467754,
+      "overlap_pct_of_smaller_store": 0.015000678176738754
+    },
+    {
+      "store_i": 27,
+      "store_j": 109,
+      "overlap_population": 0.0,
+      "store_i_captured": 20568.887775026436,
+      "store_j_captured": 20069.15992297145,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 29,
+      "store_j": 53,
+      "overlap_population": 477.7730720324872,
+      "store_i_captured": 27550.359628813327,
+      "store_j_captured": 21935.701014085742,
+      "overlap_pct_of_smaller_store": 0.02178061561495988
+    },
+    {
+      "store_i": 30,
+      "store_j": 52,
+      "overlap_population": 764.6884046658454,
+      "store_i_captured": 19984.062204840855,
+      "store_j_captured": 20807.579750206103,
+      "overlap_pct_of_smaller_store": 0.03826491315067116
+    },
+    {
+      "store_i": 32,
+      "store_j": 52,
+      "overlap_population": 556.3043582459607,
+      "store_i_captured": 20544.13493649444,
+      "store_j_captured": 20807.579750206103,
+      "overlap_pct_of_smaller_store": 0.027078500017917326
+    },
+    {
+      "store_i": 33,
+      "store_j": 53,
+      "overlap_population": 687.4455029605585,
+      "store_i_captured": 21509.783055042375,
+      "store_j_captured": 21935.701014085742,
+      "overlap_pct_of_smaller_store": 0.03195966696648788
+    },
+    {
+      "store_i": 33,
+      "store_j": 73,
+      "overlap_population": 586.9577112367249,
+      "store_i_captured": 21509.783055042375,
+      "store_j_captured": 22774.363594637754,
+      "overlap_pct_of_smaller_store": 0.027287941944125226
+    },
+    {
+      "store_i": 33,
+      "store_j": 83,
+      "overlap_population": 687.4455029605585,
+      "store_i_captured": 21509.783055042375,
+      "store_j_captured": 21835.246402467754,
+      "overlap_pct_of_smaller_store": 0.03195966696648788
+    },
+    {
+      "store_i": 35,
+      "store_j": 39,
+      "overlap_population": 1487.160401362478,
+      "store_i_captured": 19065.00564032042,
+      "store_j_captured": 18650.598691083702,
+      "overlap_pct_of_smaller_store": 0.07973794439496708
+    },
+    {
+      "store_i": 35,
+      "store_j": 92,
+      "overlap_population": 1266.4692174546165,
+      "store_i_captured": 19065.00564032042,
+      "store_j_captured": 19447.829915770097,
+      "overlap_pct_of_smaller_store": 0.0664289977851447
+    },
+    {
+      "store_i": 35,
+      "store_j": 101,
+      "overlap_population": 840.5100637429975,
+      "store_i_captured": 19065.00564032042,
+      "store_j_captured": 19132.302867392653,
+      "overlap_pct_of_smaller_store": 0.044086536327343634
+    },
+    {
+      "store_i": 36,
+      "store_j": 37,
+      "overlap_population": 2117.973425317072,
+      "store_i_captured": 23425.831858229023,
+      "store_j_captured": 20976.706847938724,
+      "overlap_pct_of_smaller_store": 0.1009678707277732
+    },
+    {
+      "store_i": 36,
+      "store_j": 58,
+      "overlap_population": 2323.0297553187584,
+      "store_i_captured": 23425.831858229023,
+      "store_j_captured": 20143.55301996655,
+      "overlap_pct_of_smaller_store": 0.1153237342496699
+    },
+    {
+      "store_i": 37,
+      "store_j": 58,
+      "overlap_population": 1997.1849990443807,
+      "store_i_captured": 20976.706847938724,
+      "store_j_captured": 20143.55301996655,
+      "overlap_pct_of_smaller_store": 0.09914760306013269
+    },
+    {
+      "store_i": 38,
+      "store_j": 88,
+      "overlap_population": 925.8093853540586,
+      "store_i_captured": 19875.142651275077,
+      "store_j_captured": 20858.297876963006,
+      "overlap_pct_of_smaller_store": 0.04658126996108196
+    },
+    {
+      "store_i": 38,
+      "store_j": 91,
+      "overlap_population": 801.7359781529888,
+      "store_i_captured": 19875.142651275077,
+      "store_j_captured": 19901.14946917887,
+      "overlap_pct_of_smaller_store": 0.040338627612393714
+    },
+    {
+      "store_i": 38,
+      "store_j": 94,
+      "overlap_population": 463.9791301298979,
+      "store_i_captured": 19875.142651275077,
+      "store_j_captured": 19139.592093689025,
+      "overlap_pct_of_smaller_store": 0.02424185049810375
+    },
+    {
+      "store_i": 39,
+      "store_j": 43,
+      "overlap_population": 1857.455155272877,
+      "store_i_captured": 18650.598691083702,
+      "store_j_captured": 20109.45532245216,
+      "overlap_pct_of_smaller_store": 0.09959225363424237
+    },
+    {
+      "store_i": 41,
+      "store_j": 56,
+      "overlap_population": 1118.489184662746,
+      "store_i_captured": 23903.111466249706,
+      "store_j_captured": 24631.645366183133,
+      "overlap_pct_of_smaller_store": 0.046792618870644134
+    },
+    {
+      "store_i": 44,
+      "store_j": 59,
+      "overlap_population": 250.43521674531195,
+      "store_i_captured": 10535.038143789023,
+      "store_j_captured": 10622.786460004241,
+      "overlap_pct_of_smaller_store": 0.02377164784096744
+    },
+    {
+      "store_i": 45,
+      "store_j": 46,
+      "overlap_population": 433.8464312533753,
+      "store_i_captured": 20769.84470882705,
+      "store_j_captured": 20025.5155629312,
+      "overlap_pct_of_smaller_store": 0.021664682234521795
+    },
+    {
+      "store_i": 45,
+      "store_j": 82,
+      "overlap_population": 873.6775483400079,
+      "store_i_captured": 20769.84470882705,
+      "store_j_captured": 20290.92390382672,
+      "overlap_pct_of_smaller_store": 0.043057553834462844
+    },
+    {
+      "store_i": 45,
+      "store_j": 110,
+      "overlap_population": 388.32091329386367,
+      "store_i_captured": 20769.84470882705,
+      "store_j_captured": 21020.734841591067,
+      "overlap_pct_of_smaller_store": 0.018696380196277045
+    },
+    {
+      "store_i": 46,
+      "store_j": 82,
+      "overlap_population": 198.87013335284337,
+      "store_i_captured": 20025.5155629312,
+      "store_j_captured": 20290.92390382672,
+      "overlap_pct_of_smaller_store": 0.009930837122664028
+    },
+    {
+      "store_i": 46,
+      "store_j": 86,
+      "overlap_population": 150.46061040935945,
+      "store_i_captured": 20025.5155629312,
+      "store_j_captured": 26476.13480039179,
+      "overlap_pct_of_smaller_store": 0.007513445031491416
+    },
+    {
+      "store_i": 46,
+      "store_j": 97,
+      "overlap_population": 68.66639215183308,
+      "store_i_captured": 20025.5155629312,
+      "store_j_captured": 19554.22283964972,
+      "overlap_pct_of_smaller_store": 0.0035115889143187817
+    },
+    {
+      "store_i": 46,
+      "store_j": 110,
+      "overlap_population": 183.5225257967793,
+      "store_i_captured": 20025.5155629312,
+      "store_j_captured": 21020.734841591067,
+      "overlap_pct_of_smaller_store": 0.00916443450457245
+    },
+    {
+      "store_i": 52,
+      "store_j": 92,
+      "overlap_population": 863.4372461363305,
+      "store_i_captured": 20807.579750206103,
+      "store_j_captured": 19447.829915770097,
+      "overlap_pct_of_smaller_store": 0.04439761402048132
+    },
+    {
+      "store_i": 52,
+      "store_j": 101,
+      "overlap_population": 434.12229398089835,
+      "store_i_captured": 20807.579750206103,
+      "store_j_captured": 19132.302867392653,
+      "overlap_pct_of_smaller_store": 0.022690540547566633
+    },
+    {
+      "store_i": 53,
+      "store_j": 83,
+      "overlap_population": 766.6144904826866,
+      "store_i_captured": 21935.701014085742,
+      "store_j_captured": 21835.246402467754,
+      "overlap_pct_of_smaller_store": 0.03510903776181093
+    },
+    {
+      "store_i": 59,
+      "store_j": 60,
+      "overlap_population": 666.8627183805845,
+      "store_i_captured": 10622.786460004241,
+      "store_j_captured": 10576.972124165182,
+      "overlap_pct_of_smaller_store": 0.06304854646038112
+    },
+    {
+      "store_i": 59,
+      "store_j": 61,
+      "overlap_population": 666.8627183805845,
+      "store_i_captured": 10622.786460004241,
+      "store_j_captured": 10672.766807151831,
+      "overlap_pct_of_smaller_store": 0.06277662841961319
+    },
+    {
+      "store_i": 60,
+      "store_j": 61,
+      "overlap_population": 700.2484742486967,
+      "store_i_captured": 10576.972124165182,
+      "store_j_captured": 10672.766807151831,
+      "overlap_pct_of_smaller_store": 0.06620500328717334
+    },
+    {
+      "store_i": 86,
+      "store_j": 109,
+      "overlap_population": 130.16404124790262,
+      "store_i_captured": 26476.13480039179,
+      "store_j_captured": 20069.15992297145,
+      "overlap_pct_of_smaller_store": 0.006485774279914676
+    },
+    {
+      "store_i": 86,
+      "store_j": 110,
+      "overlap_population": 169.48676414529334,
+      "store_i_captured": 26476.13480039179,
+      "store_j_captured": 21020.734841591067,
+      "overlap_pct_of_smaller_store": 0.008062837261519103
+    },
+    {
+      "store_i": 87,
+      "store_j": 91,
+      "overlap_population": 78.77720866710092,
+      "store_i_captured": 19563.279449963957,
+      "store_j_captured": 19901.14946917887,
+      "overlap_pct_of_smaller_store": 0.004026789520059024
+    },
+    {
+      "store_i": 87,
+      "store_j": 93,
+      "overlap_population": 78.77720866710092,
+      "store_i_captured": 19563.279449963957,
+      "store_j_captured": 19636.98142632236,
+      "overlap_pct_of_smaller_store": 0.004026789520059024
+    },
+    {
+      "store_i": 87,
+      "store_j": 95,
+      "overlap_population": 0.0,
+      "store_i_captured": 19563.279449963957,
+      "store_j_captured": 19333.701312321893,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 87,
+      "store_j": 97,
+      "overlap_population": 0.0,
+      "store_i_captured": 19563.279449963957,
+      "store_j_captured": 19554.22283964972,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 87,
+      "store_j": 109,
+      "overlap_population": 0.0,
+      "store_i_captured": 19563.279449963957,
+      "store_j_captured": 20069.15992297145,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 88,
+      "store_j": 91,
+      "overlap_population": 1212.5563448473922,
+      "store_i_captured": 20858.297876963006,
+      "store_j_captured": 19901.14946917887,
+      "overlap_pct_of_smaller_store": 0.060928960245501984
+    },
+    {
+      "store_i": 88,
+      "store_j": 93,
+      "overlap_population": 845.3562794221082,
+      "store_i_captured": 20858.297876963006,
+      "store_j_captured": 19636.98142632236,
+      "overlap_pct_of_smaller_store": 0.04304919687345387
+    },
+    {
+      "store_i": 88,
+      "store_j": 94,
+      "overlap_population": 713.1697910771445,
+      "store_i_captured": 20858.297876963006,
+      "store_j_captured": 19139.592093689025,
+      "overlap_pct_of_smaller_store": 0.037261493744806654
+    },
+    {
+      "store_i": 88,
+      "store_j": 95,
+      "overlap_population": 361.7165949338496,
+      "store_i_captured": 20858.297876963006,
+      "store_j_captured": 19333.701312321893,
+      "overlap_pct_of_smaller_store": 0.018709122950157392
+    },
+    {
+      "store_i": 88,
+      "store_j": 97,
+      "overlap_population": 363.99026741056724,
+      "store_i_captured": 20858.297876963006,
+      "store_j_captured": 19554.22283964972,
+      "overlap_pct_of_smaller_store": 0.01861440725082212
+    },
+    {
+      "store_i": 91,
+      "store_j": 93,
+      "overlap_population": 501.7212591957245,
+      "store_i_captured": 19901.14946917887,
+      "store_j_captured": 19636.98142632236,
+      "overlap_pct_of_smaller_store": 0.025549815845076526
+    },
+    {
+      "store_i": 91,
+      "store_j": 94,
+      "overlap_population": 249.19066094724656,
+      "store_i_captured": 19901.14946917887,
+      "store_j_captured": 19139.592093689025,
+      "overlap_pct_of_smaller_store": 0.0130196432467029
+    },
+    {
+      "store_i": 91,
+      "store_j": 95,
+      "overlap_population": 144.0037485080968,
+      "store_i_captured": 19901.14946917887,
+      "store_j_captured": 19333.701312321893,
+      "overlap_pct_of_smaller_store": 0.007448327983443051
+    },
+    {
+      "store_i": 91,
+      "store_j": 97,
+      "overlap_population": 142.89020548619715,
+      "store_i_captured": 19901.14946917887,
+      "store_j_captured": 19554.22283964972,
+      "overlap_pct_of_smaller_store": 0.007307383507794615
+    },
+    {
+      "store_i": 92,
+      "store_j": 94,
+      "overlap_population": 516.4544173189283,
+      "store_i_captured": 19447.829915770097,
+      "store_j_captured": 19139.592093689025,
+      "overlap_pct_of_smaller_store": 0.026983564476759196
+    },
+    {
+      "store_i": 92,
+      "store_j": 101,
+      "overlap_population": 1124.0846071580202,
+      "store_i_captured": 19447.829915770097,
+      "store_j_captured": 19132.302867392653,
+      "overlap_pct_of_smaller_store": 0.058753230855121324
+    },
+    {
+      "store_i": 93,
+      "store_j": 94,
+      "overlap_population": 249.19066094724656,
+      "store_i_captured": 19636.98142632236,
+      "store_j_captured": 19139.592093689025,
+      "overlap_pct_of_smaller_store": 0.0130196432467029
+    },
+    {
+      "store_i": 93,
+      "store_j": 95,
+      "overlap_population": 144.0037485080968,
+      "store_i_captured": 19636.98142632236,
+      "store_j_captured": 19333.701312321893,
+      "overlap_pct_of_smaller_store": 0.007448327983443051
+    },
+    {
+      "store_i": 93,
+      "store_j": 97,
+      "overlap_population": 142.89020548619715,
+      "store_i_captured": 19636.98142632236,
+      "store_j_captured": 19554.22283964972,
+      "overlap_pct_of_smaller_store": 0.007307383507794615
+    },
+    {
+      "store_i": 95,
+      "store_j": 97,
+      "overlap_population": 0.0,
+      "store_i_captured": 19333.701312321893,
+      "store_j_captured": 19554.22283964972,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 95,
+      "store_j": 109,
+      "overlap_population": 0.0,
+      "store_i_captured": 19333.701312321893,
+      "store_j_captured": 20069.15992297145,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 97,
+      "store_j": 109,
+      "overlap_population": 0.0,
+      "store_i_captured": 19554.22283964972,
+      "store_j_captured": 20069.15992297145,
+      "overlap_pct_of_smaller_store": 0.0
+    },
+    {
+      "store_i": 112,
+      "store_j": 113,
+      "overlap_population": 4246.485580846215,
+      "store_i_captured": 27207.429966632597,
+      "store_j_captured": 29149.296663365305,
+      "overlap_pct_of_smaller_store": 0.15607815901958172
+    }
+  ],
+  "baseline_mean_overlap_pct": 0.05892161398220643,
+  "baseline_median_overlap_pct": 0.027049560696707338,
+  "flat_assumption_distance_km": 1.6,
+  "flat_assumption_share": 0.2,
+  "pairs_within_flat_distance": 110,
+  "computed_overlap_within_flat_distance": 0.05892161398220643,
+  "sensitivity_sweep": [
+    {
+      "beta": 1.0,
+      "mean_overlap_pct": 0.026202967835995027,
+      "median_overlap_pct": 0.014816145662303888
+    },
+    {
+      "beta": 1.5,
+      "mean_overlap_pct": 0.04273942444630634,
+      "median_overlap_pct": 0.020884758188003102
+    },
+    {
+      "beta": 2.0,
+      "mean_overlap_pct": 0.05892161398220643,
+      "median_overlap_pct": 0.027049560696707338
+    },
+    {
+      "beta": 2.5,
+      "mean_overlap_pct": 0.07219121026264677,
+      "median_overlap_pct": 0.032053328600090546
+    },
+    {
+      "beta": 3.0,
+      "mean_overlap_pct": 0.08239970278611246,
+      "median_overlap_pct": 0.03645725055928749
+    }
+  ]
+}
