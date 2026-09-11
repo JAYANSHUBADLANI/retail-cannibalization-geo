@@ -1,5 +1,7 @@
 # How much do two stores actually steal from each other
 
+[![tests](https://github.com/JAYANSHUBADLANI/retail-cannibalization-geo/actions/workflows/tests.yml/badge.svg)](https://github.com/JAYANSHUBADLANI/retail-cannibalization-geo/actions/workflows/tests.yml)
+
 A Huff gravity model trade area and cannibalisation analysis for real
 Starbucks locations in Chicago, replacing a flat, fixed cannibalisation
 percentage with a computed, distance and density dependent overlap.
