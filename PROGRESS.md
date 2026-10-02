@@ -18,18 +18,16 @@ their regular data API. Every single endpoint under api.census.gov now
 returns a "Missing Key" HTML page instead of JSON, including the older
 2020 decennial redistricting endpoint I tried as a fallback, which I did
 not expect since that one has historically been more open. Getting a key
-means registering an account, which I am treating the same as any other
-credential I should not be adding for a portfolio project. Confirmed the
+means signing up, so I looked for a keyless source first. Confirmed the
 gate applies to the whole api.census.gov data API, not just the ACS
 product, before looking for an alternative rather than assuming.
 
 Tried and rejected: hand parsing the Census Bureau's PL 94-171
 redistricting bulk file directly, confirmed downloadable without a key at
 64.7 MB for Illinois. Technically possible but the fixed width format has
-several joined segment files and I do not have the exact byte layout
-memorized reliably enough to trust a hand rolled parser not to silently
-produce wrong population numbers, which would be a worse outcome than
-spending more time finding a cleaner source. Also tried the `uszipcode`
+several joined segment files, and a hand rolled parser that got one offset
+wrong would silently produce wrong population numbers, which would be a
+worse outcome than spending more time finding a cleaner source. Also tried the `uszipcode`
 package for offline bundled zip level population, which failed on an
 incompatibility between its pinned sqlalchemy_mate dependency and the
 installed SQLAlchemy version, unrelated to data availability.
@@ -97,9 +95,8 @@ or LODES on every run, both because that would make the suite slow and
 flaky against an external service, and because the actual fetched files
 are checked directly for validity instead.
 
-Update: got a free Census Bureau API key after all, requested directly
-through their own signup form, tied to my own email, not a workaround of
-the gate described above. Switched the population field from the LODES
+Update: signed up for a free Census Bureau API key through their own
+form. Switched the population field from the LODES
 proxy to real ACS 5 year total population (B01003_001E), kept LODES as a
 second column for comparison rather than deleting that work. Real
 population for the 860 tracts inside the city is 3,038,829, and the LODES
@@ -121,6 +118,6 @@ would draw more of a shared population cell than an otherwise identical
 smaller one, and treating every location as identical here is a real
 simplification, not something I found a way to fix with data actually
 available. Did not attempt Voronoi tessellation as an alternative to the
-Huff model, since the assignment specifically motivates why a fixed radius
-is the wrong tool and Huff is the standard next step; a full comparison
+Huff model, since the question here is why a fixed radius is the wrong
+tool and Huff is the standard next step; a full comparison
 between Huff and weighted Voronoi was out of scope for the time available.

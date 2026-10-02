@@ -10,8 +10,8 @@ needs no API key or account.
 Population: real ACS 5 year total population (B01003_001E) by tract, via
 the Census Bureau's regular data API. That API now requires a registered
 key on every endpoint, discovered while first building this, see
-PROGRESS.md. The key used here is free, requested directly from the
-Census Bureau, tied to the user's own email, not a workaround. LODES
+PROGRESS.md. The key is free from the Census Bureau's signup form and is
+read from CENSUS_API_KEY in .env or the environment. LODES
 residence area characteristics, total jobs held by residents, field C000,
 is also fetched and kept as a second column for comparison, since the
 project was originally built around that proxy before the key was

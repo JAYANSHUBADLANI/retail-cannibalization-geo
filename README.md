@@ -151,8 +151,7 @@ unusual beta choice was not separately checked.
 
 Needs a free Census Bureau API key in a `.env` file at the project root,
 `CENSUS_API_KEY=your_key_here`, requested at
-https://api.census.gov/data/key_signup.html, tied to your own email, not
-shared or checked in anywhere.
+https://api.census.gov/data/key_signup.html. `.env` is gitignored.
 
 ```
 cd retail-cannibalization-geo
